@@ -1,0 +1,33 @@
+hash: b833c4cda7c9d6b46e59553667191affe6ee81640319606aa981e58f305804d7
+updated: 2016-10-31T16:59:58.336477767-06:00
+imports:
+- name: github.com/golang/protobuf
+  version: 98fa357170587e470c5f27d3c3ea0947b71eb455
+  subpackages:
+  - proto
+- name: github.com/kmala/example-grpc-server
+  version: fd559e36a23ead3abe42393de3081c4a81dfa435
+  subpackages:
+  - _proto
+- name: golang.org/x/net
+  version: 541150ac4f433e755f5663eba5d888c2fa347343
+  subpackages:
+  - context
+  - http2
+  - http2/hpack
+  - idna
+  - internal/timeseries
+  - lex/httplex
+  - trace
+- name: google.golang.org/grpc
+  version: b7f1379d3cbbbeb2ca3405852012e237aa05459e
+  subpackages:
+  - codes
+  - credentials
+  - grpclog
+  - internal
+  - metadata
+  - naming
+  - peer
+  - transport
+testImports: []
