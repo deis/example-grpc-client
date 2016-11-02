@@ -1,16 +1,16 @@
-hash: b833c4cda7c9d6b46e59553667191affe6ee81640319606aa981e58f305804d7
-updated: 2016-10-31T16:59:58.336477767-06:00
+hash: 482646620367f27a7c95f934a892b8e6d0d90aa9fc8a92498212ce3f6cad620f
+updated: 2016-11-02T09:27:54.425844931-06:00
 imports:
+- name: github.com/deis/example-grpc-server
+  version: 666576345002f04da5d2b70810f43b6740403998
+  subpackages:
+  - _proto
 - name: github.com/golang/protobuf
   version: 98fa357170587e470c5f27d3c3ea0947b71eb455
   subpackages:
   - proto
-- name: github.com/kmala/example-grpc-server
-  version: fd559e36a23ead3abe42393de3081c4a81dfa435
-  subpackages:
-  - _proto
 - name: golang.org/x/net
-  version: 541150ac4f433e755f5663eba5d888c2fa347343
+  version: 4bb47a1098b37d69980d96237e2ae4ff56bb5a95
   subpackages:
   - context
   - http2

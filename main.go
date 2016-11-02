@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"os"
 
-	pb "github.com/kmala/example-grpc-server/_proto"
+	pb "github.com/deis/example-grpc-server/_proto"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 )

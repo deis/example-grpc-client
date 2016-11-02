@@ -1,6 +1,6 @@
 package: github.com/deis/example-grpc-client
 import:
-- package: github.com/kmala/example-grpc-server
+- package: github.com/deis/example-grpc-server
   subpackages:
   - _proto
 - package: golang.org/x/net
