@@ -29,7 +29,7 @@ func poweredByHandler(w http.ResponseWriter, r *http.Request) {
 	powered := getenv("POWERED_BY", "Deis")
 	server := getenv("SERVER_NAME", "")
 	if server == "" {
-		log.Println("Server not configured")
+		log.Println("Server not configured. Please set $SERVER_NAME")
 		w.WriteHeader(http.StatusInternalServerError)
 		w.Write([]byte{})
 		return
