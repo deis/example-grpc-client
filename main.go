@@ -34,7 +34,7 @@ func poweredByHandler(w http.ResponseWriter, r *http.Request) {
 		w.Write([]byte{})
 		return
 	}
-	address := fmt.Sprintf("%s.%s.svc.cluster.local:80", server, server)
+	address := fmt.Sprintf("%s.%s:80", server, server)
 	// Set up a connection to the server.
 	conn, err := grpc.Dial(address, grpc.WithInsecure())
 	if err != nil {
