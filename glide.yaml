@@ -1,0 +1,10 @@
+package: github.com/deis/example-grpc-client
+import:
+- package: github.com/deis/example-grpc-server
+  subpackages:
+  - _proto
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: google.golang.org/grpc
+  version: v1.0.3
